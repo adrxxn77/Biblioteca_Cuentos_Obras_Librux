@@ -46,12 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArbolLibros.cs" />
+    <Compile Include="BIcola.cs" />
+    <Compile Include="Cola.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListaCircular.cs" />
+    <Compile Include="ListaDoble.cs" />
+    <Compile Include="ListaSimple.cs" />
+    <Compile Include="NodoArbol.cs" />
+    <Compile Include="NodoBicola.cs" />
+    <Compile Include="NodoCircular.cs" />
+    <Compile Include="NodoCola.cs" />
+    <Compile Include="NodoDoble.cs" />
+    <Compile Include="NodoPila.cs" />
+    <Compile Include="NodoSimple.cs" />
+    <Compile Include="Pila.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
