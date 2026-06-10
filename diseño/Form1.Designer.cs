@@ -75,6 +75,7 @@
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.SystemColors.Menu;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(258, 290);
@@ -84,12 +85,13 @@
             // 
             // btnRegistar
             // 
+            this.btnRegistar.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnRegistar.Location = new System.Drawing.Point(395, 61);
             this.btnRegistar.Name = "btnRegistar";
             this.btnRegistar.Size = new System.Drawing.Size(139, 51);
             this.btnRegistar.TabIndex = 4;
             this.btnRegistar.Text = "Registrar";
-            this.btnRegistar.UseVisualStyleBackColor = true;
+            this.btnRegistar.UseVisualStyleBackColor = false;
             // 
             // lbBusquedaRapida
             // 
@@ -109,89 +111,99 @@
             // 
             // btnBuscar
             // 
+            this.btnBuscar.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnBuscar.Location = new System.Drawing.Point(426, 138);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(150, 49);
             this.btnBuscar.TabIndex = 7;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // btnHistorial
             // 
+            this.btnHistorial.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnHistorial.Location = new System.Drawing.Point(888, 308);
             this.btnHistorial.Name = "btnHistorial";
             this.btnHistorial.Size = new System.Drawing.Size(146, 49);
             this.btnHistorial.TabIndex = 8;
             this.btnHistorial.Text = "Historial";
-            this.btnHistorial.UseVisualStyleBackColor = true;
+            this.btnHistorial.UseVisualStyleBackColor = false;
             // 
             // btnDevolver
             // 
+            this.btnDevolver.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnDevolver.Location = new System.Drawing.Point(52, 517);
             this.btnDevolver.Name = "btnDevolver";
             this.btnDevolver.Size = new System.Drawing.Size(147, 49);
             this.btnDevolver.TabIndex = 9;
             this.btnDevolver.Text = "Devolver";
-            this.btnDevolver.UseVisualStyleBackColor = true;
+            this.btnDevolver.UseVisualStyleBackColor = false;
             // 
             // btnPrestamo
             // 
+            this.btnPrestamo.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnPrestamo.Location = new System.Drawing.Point(52, 409);
             this.btnPrestamo.Name = "btnPrestamo";
             this.btnPrestamo.Size = new System.Drawing.Size(147, 49);
             this.btnPrestamo.TabIndex = 10;
             this.btnPrestamo.Text = "Pedir Prestamo";
-            this.btnPrestamo.UseVisualStyleBackColor = true;
+            this.btnPrestamo.UseVisualStyleBackColor = false;
             // 
             // btnCatalogo
             // 
+            this.btnCatalogo.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnCatalogo.Location = new System.Drawing.Point(52, 308);
             this.btnCatalogo.Name = "btnCatalogo";
             this.btnCatalogo.Size = new System.Drawing.Size(147, 49);
             this.btnCatalogo.TabIndex = 11;
             this.btnCatalogo.Text = " Catalogo";
-            this.btnCatalogo.UseVisualStyleBackColor = true;
+            this.btnCatalogo.UseVisualStyleBackColor = false;
             // 
             // btnRecomendados
             // 
+            this.btnRecomendados.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnRecomendados.Location = new System.Drawing.Point(459, 225);
             this.btnRecomendados.Name = "btnRecomendados";
             this.btnRecomendados.Size = new System.Drawing.Size(154, 49);
             this.btnRecomendados.TabIndex = 12;
             this.btnRecomendados.Text = "Recomendados";
-            this.btnRecomendados.UseVisualStyleBackColor = true;
+            this.btnRecomendados.UseVisualStyleBackColor = false;
             // 
             // btnEspera
             // 
+            this.btnEspera.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnEspera.Location = new System.Drawing.Point(888, 517);
             this.btnEspera.Name = "btnEspera";
             this.btnEspera.Size = new System.Drawing.Size(146, 49);
             this.btnEspera.TabIndex = 13;
             this.btnEspera.Text = "List. Espera";
-            this.btnEspera.UseVisualStyleBackColor = true;
+            this.btnEspera.UseVisualStyleBackColor = false;
             // 
             // btnSolicitud
             // 
+            this.btnSolicitud.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnSolicitud.Location = new System.Drawing.Point(888, 409);
             this.btnSolicitud.Name = "btnSolicitud";
             this.btnSolicitud.Size = new System.Drawing.Size(146, 49);
             this.btnSolicitud.TabIndex = 14;
             this.btnSolicitud.Text = "Solicitar Prestamo";
-            this.btnSolicitud.UseVisualStyleBackColor = true;
+            this.btnSolicitud.UseVisualStyleBackColor = false;
             // 
             // btnSalir
             // 
+            this.btnSalir.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnSalir.Location = new System.Drawing.Point(459, 582);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(154, 38);
             this.btnSalir.TabIndex = 15;
             this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(1092, 642);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnSolicitud);
