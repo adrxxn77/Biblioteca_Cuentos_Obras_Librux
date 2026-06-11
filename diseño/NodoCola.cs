@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace diseño
 {
-    internal class NodoCola
+    public class NodoCola
     {
+        public string usuario;
+        public NodoCola siguiente;
     }
 }

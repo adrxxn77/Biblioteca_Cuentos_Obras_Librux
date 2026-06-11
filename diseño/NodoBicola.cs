@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace diseño
 {
-    internal class NodoBicola
+    public class NodoBicola
     {
+        public string usuario;
+        public NodoBicola siguiente;
     }
 }

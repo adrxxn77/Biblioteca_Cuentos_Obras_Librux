@@ -62,6 +62,7 @@
     <Compile Include="NodoBicola.cs" />
     <Compile Include="NodoCircular.cs" />
     <Compile Include="NodoCola.cs" />
+    <Compile Include="NodoColaBase.cs" />
     <Compile Include="NodoDoble.cs" />
     <Compile Include="NodoPila.cs" />
     <Compile Include="NodoSimple.cs" />
