@@ -32,7 +32,7 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbUsuario = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.ltsSalida = new System.Windows.Forms.ListBox();
             this.btnRegistar = new System.Windows.Forms.Button();
             this.lbBusquedaRapida = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -73,15 +73,15 @@
             this.lbUsuario.TabIndex = 2;
             this.lbUsuario.Text = "Usuario: ";
             // 
-            // listBox1
+            // ltsSalida
             // 
-            this.listBox1.BackColor = System.Drawing.SystemColors.Menu;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(258, 290);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(559, 276);
-            this.listBox1.TabIndex = 3;
+            this.ltsSalida.BackColor = System.Drawing.SystemColors.Menu;
+            this.ltsSalida.FormattingEnabled = true;
+            this.ltsSalida.ItemHeight = 16;
+            this.ltsSalida.Location = new System.Drawing.Point(258, 290);
+            this.ltsSalida.Name = "ltsSalida";
+            this.ltsSalida.Size = new System.Drawing.Size(559, 276);
+            this.ltsSalida.TabIndex = 3;
             // 
             // btnRegistar
             // 
@@ -92,6 +92,7 @@
             this.btnRegistar.TabIndex = 4;
             this.btnRegistar.Text = "Registrar";
             this.btnRegistar.UseVisualStyleBackColor = false;
+            this.btnRegistar.Click += new System.EventHandler(this.btnRegistar_Click);
             // 
             // lbBusquedaRapida
             // 
@@ -118,6 +119,7 @@
             this.btnBuscar.TabIndex = 7;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click_1);
             // 
             // btnHistorial
             // 
@@ -128,6 +130,7 @@
             this.btnHistorial.TabIndex = 8;
             this.btnHistorial.Text = "Historial";
             this.btnHistorial.UseVisualStyleBackColor = false;
+            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
             // btnDevolver
             // 
@@ -138,6 +141,7 @@
             this.btnDevolver.TabIndex = 9;
             this.btnDevolver.Text = "Devolver";
             this.btnDevolver.UseVisualStyleBackColor = false;
+            this.btnDevolver.Click += new System.EventHandler(this.btnDevolver_Click);
             // 
             // btnPrestamo
             // 
@@ -148,6 +152,7 @@
             this.btnPrestamo.TabIndex = 10;
             this.btnPrestamo.Text = "Pedir Prestamo";
             this.btnPrestamo.UseVisualStyleBackColor = false;
+            this.btnPrestamo.Click += new System.EventHandler(this.btnPrestamo_Click);
             // 
             // btnCatalogo
             // 
@@ -158,6 +163,7 @@
             this.btnCatalogo.TabIndex = 11;
             this.btnCatalogo.Text = " Catalogo";
             this.btnCatalogo.UseVisualStyleBackColor = false;
+            this.btnCatalogo.Click += new System.EventHandler(this.btnCatalogo_Click);
             // 
             // btnRecomendados
             // 
@@ -168,6 +174,7 @@
             this.btnRecomendados.TabIndex = 12;
             this.btnRecomendados.Text = "Recomendados";
             this.btnRecomendados.UseVisualStyleBackColor = false;
+            this.btnRecomendados.Click += new System.EventHandler(this.btnRecomendados_Click);
             // 
             // btnEspera
             // 
@@ -178,6 +185,7 @@
             this.btnEspera.TabIndex = 13;
             this.btnEspera.Text = "List. Espera";
             this.btnEspera.UseVisualStyleBackColor = false;
+            this.btnEspera.Click += new System.EventHandler(this.btnEspera_Click);
             // 
             // btnSolicitud
             // 
@@ -188,6 +196,7 @@
             this.btnSolicitud.TabIndex = 14;
             this.btnSolicitud.Text = "Solicitar Prestamo";
             this.btnSolicitud.UseVisualStyleBackColor = false;
+            this.btnSolicitud.Click += new System.EventHandler(this.btnSolicitud_Click);
             // 
             // btnSalir
             // 
@@ -198,6 +207,7 @@
             this.btnSalir.TabIndex = 15;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // Form1
             // 
@@ -217,7 +227,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lbBusquedaRapida);
             this.Controls.Add(this.btnRegistar);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.ltsSalida);
             this.Controls.Add(this.lbUsuario);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtUsuario);
@@ -234,7 +244,7 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbUsuario;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox ltsSalida;
         private System.Windows.Forms.Button btnRegistar;
         private System.Windows.Forms.Label lbBusquedaRapida;
         private System.Windows.Forms.TextBox textBox2;
