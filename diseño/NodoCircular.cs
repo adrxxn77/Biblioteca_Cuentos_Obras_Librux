@@ -4,9 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace diseño
+namespace Clases
 {
-    internal class NodoCircular
+    public class NodoCircular
     {
+        public string titulo;
+        public NodoCircular siguiente;
+
+        public NodoCircular(string t)
+        {
+            titulo = t;
+            siguiente = null;
+        }
     }
 }

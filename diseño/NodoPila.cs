@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace diseño
+namespace Clases
 {
-    internal class NodoPila
+    public class NodoPila
     {
+        public string accion;
+        public NodoPila siguiente;
     }
 }
